@@ -1,0 +1,36 @@
+{
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "editor.colorDecorators": false,
+    "editor.codeLens": false,
+    "editor.hover.enabled": false,
+    "editor.lightbulb.enabled": false,
+    "editor.links": false,
+    "editor.parameterHints.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "html.autoClosingTags": false,
+    "html.suggest.html5": false,
+    "editor.tabSize": 2,
+    "files.eol": "\n",
+    "editor.rulers": [
+        80
+    ],
+    "explorer.confirmDelete": false,
+    "javascript.suggest.enabled": false,
+    "javascript.suggest.autoImports": false,
+    "javascript.suggest.completeJSDocs": false,
+    "javascript.suggest.names": false,
+    "javascript.suggest.paths": false,
+    "eslint.run": "onSave",
+    "terminal.external.linuxExec": "",
+    "editor.fontFamily": "Source Code Pro",
+    "workbench.colorTheme": "One Dark Pro",
+}

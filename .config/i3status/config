@@ -1,0 +1,33 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# see https://github.com/Binaryify/OneDark-Pro/blob/master/themes/OneDark-Pro.json
+# for some colors
+
+general {
+        colors = true
+        interval = 5
+}
+
+order += "netdata"
+order += "sysdata"
+order += "tztime local"
+order += "volume_status"
+
+tztime local {
+        format = "%b-%d %-I:%M %p"
+}
+
+netdata {
+        format = "LAN(Kb): {down}↓ {up}↑"
+}
+
+sysdata {
+    format = "CPU {cpu_freq_avg}"
+}
+
+volume_status {
+    thresholds = [
+        (0, "#d7dae0")
+    ]
+}

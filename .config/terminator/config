@@ -1,0 +1,45 @@
+[global_config]
+  focus = system
+  title_inactive_bg_color = "#657b83"
+  title_transmit_bg_color = "#dc322f"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Base16 Solarized Dark
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#282c34"
+    copy_on_selection = True
+    cursor_color = "#93a1a1"
+    font = Source Code Pro Medium 12
+    foreground_color = "#d7dae0"
+    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
+    show_titlebar = False
+    use_system_font = False
+  [[Base16 Solarized Dark]]
+    allow_bold = False
+    background_color = "#002b36"
+    copy_on_selection = True
+    cursor_color = "#93a1a1"
+    font = Source Code Pro 12
+    foreground_color = "#93a1a1"
+    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
+    show_titlebar = False
+    use_system_font = False
+  [[One dark]]
+    background_color = "#300a24"
+    copy_on_selection = True
+    cursor_color = "#676c76"
+    font = Consolas 12
+    foreground_color = "#ffffff"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    show_titlebar = False
+    use_system_font = False
