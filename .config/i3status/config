@@ -30,4 +30,5 @@ volume_status {
     thresholds = [
         (0, "#d7dae0")
     ]
+    on_click 3 = "exec pavucontrol"
 }
