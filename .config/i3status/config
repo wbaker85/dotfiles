@@ -11,8 +11,8 @@ general {
 
 order += "netdata"
 order += "sysdata"
-order += "tztime local"
 order += "volume_status"
+order += "tztime local"
 
 tztime local {
         format = "%b-%d %-I:%M %p"
