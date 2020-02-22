@@ -1,11 +1,15 @@
-# i3 config file (v4)
-#
-# Please see https://i3wm.org/docs/userguide.html for a complete reference!
-#
-
 # My settings
-focus_follows_mouse yes
 for_window [class="Pavucontrol"] floating enable
+bindsym Mod1+Tab workspace next_on_output
+
+workspace 99 output HDMI-A-1
+workspace 1 output HDMI-A-0
+workspace 2 output HDMI-A-0
+
+exec --no-startup-id "i3-msg 'workspace 2; append_layout ~/.config/i3/workspace-2.json'"
+exec --no-startup-id "i3-msg 'workspace 1; append_layout ~/.config/i3/workspace-1.json'"
+exec --no-startup-id "i3-msg 'workspace 99; append_layout ~/.config/i3/workspace-99.json'"
+exec --no-startup-id /bin/bash ~/.config/i3/startup.sh
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
