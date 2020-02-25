@@ -10,7 +10,7 @@ order += "volume_status"
 order += "tztime local"
 
 tztime local {
-        format = "%b-%d %-I:%M %p"
+        format = "%b-%d %-I:%M %p "
 }
 
 volume_status {
