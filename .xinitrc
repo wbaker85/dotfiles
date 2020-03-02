@@ -11,7 +11,7 @@ fi
 
 xrandr --output HDMI-A-1 --left-of HDMI-A-0
 xrandr --output HDMI-A-0 --primary
-xset dpms 300 0 0
+xset dpms 330 0 0
 
 numlockx &
 exec i3
