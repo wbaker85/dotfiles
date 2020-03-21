@@ -1,6 +1,0 @@
-[Unit]
-Description=sync media
- 
-[Service]
-Type=oneshot
-ExecStart=/bin/bash /home/will/scripts/syncer.sh
