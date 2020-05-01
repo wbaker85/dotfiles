@@ -9,11 +9,11 @@
        "x": 0,
        "y": 0
     },
-    "name": "i3: Layout saving in i3 - Mozilla Firefox",
+    "name": "Google Chrome",
     "percent": 1,
     "swallows": [
        {
-        "class": "^firefox$",
+        "class": "^Google-chrome$",
         "instance": "^primary$"
        }
     ],

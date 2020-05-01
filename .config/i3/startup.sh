@@ -3,24 +3,24 @@
 termite --class startup1 &
 termite --class startup2 &
 code &
-firefox &
-OUTPUT="$(xdotool search --classname --onlyvisible Navigator)"
+google-chrome-stable &
+OUTPUT="$(xdotool search --classname --onlyvisible google-chrome)"
 
 until [ "$OUTPUT" != ""  ]
 do
   sleep 0.1
-  OUTPUT="$(xdotool search --classname --onlyvisible Navigator)"
+  OUTPUT="$(xdotool search --classname --onlyvisible google-chrome)"
 done
 
-xdotool search --classname --onlyvisible Navigator set_window --classname secondary
+xdotool search --classname --onlyvisible google-chrome set_window --classname secondary
 
-firefox &
-OUTPUT="$(xdotool search --classname --onlyvisible Navigator)"
+google-chrome-stable &
+OUTPUT="$(xdotool search --classname --onlyvisible google-chrome)"
 
 until [ "$OUTPUT" != ""  ]
 do
   sleep 0.1
-  OUTPUT="$(xdotool search --classname --onlyvisible Navigator)"
+  OUTPUT="$(xdotool search --classname --onlyvisible google-chrome)"
 done
 
-xdotool search --classname --onlyvisible Navigator set_window --classname primary
+xdotool search --classname --onlyvisible google-chrome set_window --classname primary

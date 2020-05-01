@@ -60,11 +60,11 @@
        "x": 0,
        "y": 0
     },
-    "name": "Mozilla Firefox",
+    "name": "Google Chrome",
     "percent": 0.666666666666667,
     "swallows": [
        {
-        "class": "^firefox$",
+        "class": "^Google-chrome$",
         "instance": "^secondary$"
        }
     ],

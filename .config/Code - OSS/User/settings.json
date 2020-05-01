@@ -33,4 +33,9 @@
     "terminal.external.linuxExec": "",
     "editor.fontFamily": "Source Code Pro",
     "workbench.colorTheme": "One Dark Pro",
+    "sync.autoUpload": true,
+    "sync.forceUpload": false,
+    "sync.gist": "77d7e40cf0b466a4cfd913cbd6d14953",
+    "codesnap.containerPadding": "0",
+    "codesnap.roundedCorners": false,
 }
