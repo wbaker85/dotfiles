@@ -6,16 +6,8 @@ general {
         interval = 5
 }
 
-order += "volume_status"
 order += "tztime local"
 
 tztime local {
         format = "%b-%d %-I:%M %p "
-}
-
-volume_status {
-    thresholds = [
-        (0, "#d7dae0")
-    ]
-    on_click 3 = "exec pavucontrol"
 }
