@@ -2,6 +2,9 @@
 for_window [class="Pavucontrol"] floating enable
 bindsym Mod1+Tab workspace next_on_output
 
+for_window [class="^.*"] border pixel 1
+new_window 1pixel
+
 workspace 99 output HDMI-A-1
 workspace 1 output HDMI-A-0
 workspace 2 output HDMI-A-0
