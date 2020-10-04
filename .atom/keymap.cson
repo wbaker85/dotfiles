@@ -1,0 +1,4 @@
+'.platform-linux atom-text-editor':
+  'alt-,': 'bracket-matcher:select-inside-brackets'
+'.platform-win32, .platform-linux':
+  'ctrl-b': 'tree-view:toggle'
